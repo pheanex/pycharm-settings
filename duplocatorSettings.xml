@@ -2,13 +2,10 @@
   <component name="DuplocatorSettings">
     <option name="SELECTED_PROFILES">
       <set>
-        <option value="CSS" />
-        <option value="Groovy" />
-        <option value="HTML" />
-        <option value="Java" />
         <option value="JavaScript" />
+        <option value="Python" />
       </set>
     </option>
-    <option name="LAST_SELECTED_LANGUAGE" value="Groovy" />
+    <option name="LAST_SELECTED_LANGUAGE" value="Python" />
   </component>
 </application>

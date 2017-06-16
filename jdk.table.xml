@@ -6,11 +6,6 @@
       <version value="java version &quot;1.8.0_131&quot;" />
       <homePath value="/usr/lib/jvm/java-8-openjdk-amd64" />
       <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
-          </root>
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root type="simple" url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar!/" />
@@ -30,13 +25,9 @@
             <root type="simple" url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/management-agent.jar!/" />
             <root type="simple" url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar!/" />
             <root type="simple" url="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Downloads/intellij/idea-IU-171.3780.107" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root type="simple" url="http://docs.oracle.com/javase/8/docs/api/" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>
@@ -46,12 +37,9 @@
     <jdk version="2">
       <name value="IntelliJ IDEA IU-171.4073.35" />
       <type value="IDEA JDK" />
-      <version value="java version &quot;1.8.0_131&quot;" />
+      <version value="java version &quot;1.8.0_121&quot;" />
       <homePath value="$APPLICATION_HOME_DIR$" />
       <roots>
-        <annotationsPath>
-          <root type="composite" />
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/slf4j-api-1.7.10.jar!/" />
@@ -217,11 +205,6 @@
             <root type="simple" url="file://$USER_HOME$/Downloads/intellij/idea-IU-171.3780.107" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite">
-            <root type="simple" url="http://docs.oracle.com/javase/8/docs/api/" />
-          </root>
-        </javadocPath>
         <sourcePath>
           <root type="composite">
             <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/src/src_spring-openapi.zip!/" />
@@ -234,9 +217,69 @@
           </root>
         </sourcePath>
       </roots>
-      <additional sdk="1.8">
-        <option name="mySandboxHome" value="$USER_HOME$/.IntelliJIdea2017.1/system/plugins-sandbox" />
-      </additional>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.5.3 virtualenv at ~/Python3-Venv" />
+      <type value="Python SDK" />
+      <version value="Python 3.5.3" />
+      <homePath value="$USER_HOME$/Python3-Venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Python3-Venv/lib/python3.5" />
+            <root type="simple" url="file://$USER_HOME$/Python3-Venv/lib/python3.5/plat-x86_64-linux-gnu" />
+            <root type="simple" url="file://$USER_HOME$/Python3-Venv/lib/python3.5/lib-dynload" />
+            <root type="simple" url="file:///usr/lib/python3.5" />
+            <root type="simple" url="file:///usr/lib/python3.5/plat-x86_64-linux-gnu" />
+            <root type="simple" url="file://$USER_HOME$/Python3-Venv/lib/python3.5/site-packages" />
+            <root type="simple" url="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1231857661" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.5" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.5.3 virtualenv at ~/python3.5" />
+      <type value="Python SDK" />
+      <version value="Python 3.5.3" />
+      <homePath value="$USER_HOME$/python3.5/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/python3.5/lib/python3.5" />
+            <root type="simple" url="file://$USER_HOME$/python3.5/lib/python3.5/plat-x86_64-linux-gnu" />
+            <root type="simple" url="file://$USER_HOME$/python3.5/lib/python3.5/lib-dynload" />
+            <root type="simple" url="file:///usr/lib/python3.5" />
+            <root type="simple" url="file:///usr/lib/python3.5/plat-x86_64-linux-gnu" />
+            <root type="simple" url="file://$USER_HOME$/python3.5/lib/python3.5/site-packages" />
+            <root type="simple" url="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1838777384" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.5" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/git/exercism" />
     </jdk>
   </component>
 </application>
