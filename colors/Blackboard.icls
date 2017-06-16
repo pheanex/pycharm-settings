@@ -4,7 +4,7 @@
     <property name="created">2017-04-23T15:45:37</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.1.0.0</property>
-    <property name="modified">2017-06-16T18:35:48</property>
+    <property name="modified">2017-06-16T18:50:38</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <font>
@@ -474,11 +474,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="KOTLIN_BUILTIN_ANNOTATION">
-      <value>
-        <option name="FOREGROUND" value="fbd729" />
-      </value>
-    </option>
     <option name="KOTLIN_CLOSURE_DEFAULT_PARAMETER">
       <value />
     </option>
@@ -495,13 +490,26 @@
     <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
       <value />
     </option>
+    <option name="KOTLIN_EXTENSION_PROPERTY">
+      <value />
+    </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
       <value />
     </option>
     <option name="KOTLIN_INSTANCE_PROPERTY">
       <value />
     </option>
-    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="KOTLIN_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="fbd729" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value>
+        <option name="FOREGROUND" value="fc6300" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -509,6 +517,11 @@
     </option>
     <option name="KOTLIN_NAMED_ARGUMENT">
       <value />
+    </option>
+    <option name="KOTLIN_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="f8f8f8" />
+      </value>
     </option>
     <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="KOTLIN_SMART_CAST_RECEIVER">
@@ -521,6 +534,11 @@
     </option>
     <option name="KOTLIN_SMART_CONSTANT">
       <value />
+    </option>
+    <option name="KOTLIN_STRING">
+      <value>
+        <option name="FOREGROUND" value="44c233" />
+      </value>
     </option>
     <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="KOTLIN_VARIABLE_AS_FUNCTION">
