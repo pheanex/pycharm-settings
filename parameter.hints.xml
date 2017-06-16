@@ -1,0 +1,11 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java" />
+      <blacklist language="Groovy" />
+    </blacklists>
+    <option id="java.multiple.params.same.type" value="true" />
+    <option id="sql.show.column.names.in.insert.values" value="true" />
+  </component>
+</application>

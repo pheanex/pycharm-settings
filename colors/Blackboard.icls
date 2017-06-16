@@ -4,7 +4,7 @@
     <property name="created">2017-04-23T15:45:37</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.1.0.0</property>
-    <property name="modified">2017-06-11T20:05:22</property>
+    <property name="modified">2017-06-16T11:02:22</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <font>
@@ -289,6 +289,11 @@
       <value>
         <option name="FOREGROUND" value="9876aa" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="ECMAL4.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
