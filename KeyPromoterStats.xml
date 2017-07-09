@@ -1,0 +1,13 @@
+<application>
+  <component name="KeyPromoterStats">
+    <option name="stats">
+      <map>
+        <entry key="'Alt+Einfg'" value="1" />
+        <entry key="'Alt+Löschen'" value="1" />
+        <entry key="'Alt+Umschalt+F9'" value="1" />
+        <entry key="'Strg+C' or 'Strg+Einfg'" value="1" />
+        <entry key="'Strg+F2'" value="3" />
+      </map>
+    </option>
+  </component>
+</application>
