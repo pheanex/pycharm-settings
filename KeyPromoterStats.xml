@@ -4,10 +4,12 @@
       <map>
         <entry key="'Alt+Einfg'" value="1" />
         <entry key="'Alt+Löschen'" value="1" />
+        <entry key="'Alt+Umschalt+F10'" value="3" />
         <entry key="'Alt+Umschalt+F9'" value="2" />
         <entry key="'Löschen'" value="1" />
         <entry key="'Strg+C' or 'Strg+Einfg'" value="1" />
-        <entry key="'Strg+F2'" value="17" />
+        <entry key="'Strg+F2'" value="19" />
+        <entry key="'Strg+F5'" value="2" />
         <entry key="'Umschalt+F10'" value="3" />
       </map>
     </option>
