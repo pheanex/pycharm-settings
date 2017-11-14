@@ -66,5 +66,8 @@
   <action id="Vcs.Log.ShowDiff" />
   <action id="View event PSI element" />
   <action id="XDebugger.MoveWatchDown" />
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
