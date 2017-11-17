@@ -12,6 +12,7 @@
   <action id="Console.TableResult.FindInGrid">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="DecrementWindowHeight" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.UpdatedFiles" />
   <action id="EditorCloneCaretAbove">
@@ -32,13 +33,23 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="IncrementWindowHeight" />
   <action id="MethodDown" />
-  <action id="MoveLineDown" />
-  <action id="MoveLineUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="PopupHector" />
   <action id="RearrangeCode">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
   </action>
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
