@@ -1,5 +1,5 @@
 <code_scheme name="Default">
-  <option name="RIGHT_MARGIN" value="79" />
+  <option name="RIGHT_MARGIN" value="200" />
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
@@ -8,6 +8,9 @@
     <option name="OPTIMIZE_IMPORTS_SORT_NAMES_IN_FROM_IMPORTS" value="true" />
     <option name="FROM_IMPORT_PARENTHESES_FORCE_IF_MULTILINE" value="true" />
   </Python>
+  <codeStyleSettings language="Python">
+    <option name="WRAP_ON_TYPING" value="0" />
+  </codeStyleSettings>
   <codeStyleSettings language="yaml">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
