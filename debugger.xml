@@ -62,17 +62,15 @@
     </filter>
   </component>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <show-values-inline>false</show-values-inline>
+    </data-views>
     <general />
     <debuggers>
-      <debugger id="javascript">
+      <debugger id="python">
         <configuration>
-          <custom-object-presentation />
-        </configuration>
-      </debugger>
-      <debugger id="kotlin_debugger">
-        <configuration>
-          <option name="DEBUG_IS_FILTER_FOR_STDLIB_ALREADY_ADDED" value="true" />
+          <option name="simplifiedView" value="false" />
+          <option name="watchReturnValues" value="true" />
         </configuration>
       </debugger>
     </debuggers>
