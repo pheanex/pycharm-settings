@@ -6,4 +6,18 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
+  <tool name="Safetycheck requirements.txt" description="Safety checks your installed dependencies for known security vulnerabilities." showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/python3.6venv/bin/safety" />
+      <option name="PARAMETERS" value="check --file $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Vulture - find unused code" description="Vulture finds unused code in Python programs" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/python3.6venv/bin/vulture" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
