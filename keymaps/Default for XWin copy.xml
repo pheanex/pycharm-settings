@@ -74,7 +74,7 @@
   </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="ToggleBookmark7" />
-  <action id="Tool_External Tools_Shellcheck">
+  <action id="Tool_External Tools_Flake8">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
   </action>
   <action id="Tool_External Tools_Yapf">
