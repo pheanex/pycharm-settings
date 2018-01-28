@@ -3,6 +3,7 @@
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
@@ -64,13 +65,21 @@
   <action id="ShelvedChanges.Diff" />
   <action id="ShowContent" />
   <action id="ShowUmlDiagram" />
+  <action id="ShowUmlDiagramPopup" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl alt h" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl alt v" />
   </action>
+  <action id="SurroundWithLiveTemplate" />
   <action id="ToggleBookmark7" />
+  <action id="Tool_External Tools_Shellcheck">
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
+  </action>
+  <action id="Tool_External Tools_Yapf">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
   </action>

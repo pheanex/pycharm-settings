@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'cpython'" />
-    <option name="defaultScopeName" value="Project 'cpython'" />
+    <option name="customScope" value="File '.../Lib/poplib.py [cpython]'" />
+    <option name="defaultScopeName" value="File '.../Lib/poplib.py [cpython]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'cpython'" />
+    <option name="SEARCH_SCOPE" value="File '.../Lib/poplib.py [cpython]'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
