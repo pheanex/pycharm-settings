@@ -77,6 +77,12 @@
   <action id="Tool_External Tools_Flake8">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
   </action>
+  <action id="Tool_External Tools_PyLint">
+    <keyboard-shortcut first-keystroke="ctrl alt #10000d6" />
+  </action>
+  <action id="Tool_External Tools_PyLint3">
+    <keyboard-shortcut first-keystroke="ctrl alt #10000d6" />
+  </action>
   <action id="Tool_External Tools_Yapf">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
