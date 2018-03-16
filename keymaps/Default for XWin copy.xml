@@ -1,7 +1,4 @@
 <keymap version="1" name="Default for XWin copy" parent="Default for XWin">
-  <action id="ActivatePythonConsoleToolWindow">
-    <keyboard-shortcut first-keystroke="alt f11" />
-  </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
@@ -99,6 +96,9 @@
   <action id="Vcs.Log.ShowDiff" />
   <action id="View event PSI element" />
   <action id="XDebugger.MoveWatchDown" />
+  <action id="com.jetbrains.python.console.RunPythonConsoleAction">
+    <keyboard-shortcut first-keystroke="alt f11" />
+  </action>
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
