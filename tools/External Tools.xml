@@ -13,9 +13,9 @@
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
-  <tool name="pylint3" description="python linter 3" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="pylint" description="python linter" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="pylint3" />
+      <option name="COMMAND" value="pylint" />
       <option name="PARAMETERS" value="$FilePathRelativeToProjectRoot$" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
