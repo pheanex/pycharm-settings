@@ -104,6 +104,9 @@
   <action id="Tool_External Tools_pylint3">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
   </action>
+  <action id="Tool_External Tools_yamllint">
+    <keyboard-shortcut first-keystroke="ctrl alt #10000c4" />
+  </action>
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
   </action>
