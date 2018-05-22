@@ -16,7 +16,7 @@
   <tool name="pylint" description="python linter" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="pylint" />
-      <option name="PARAMETERS" value="$FilePathRelativeToProjectRoot$" />
+      <option name="PARAMETERS" value="-d C0111,C0103 $FilePathRelativeToProjectRoot$" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
