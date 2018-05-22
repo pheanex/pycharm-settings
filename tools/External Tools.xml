@@ -8,7 +8,7 @@
   </tool>
   <tool name="YAPF3" description="yet another python formatter" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="yapf3" />
+      <option name="COMMAND" value="yapf" />
       <option name="PARAMETERS" value="-i $FilePathRelativeToProjectRoot$" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>

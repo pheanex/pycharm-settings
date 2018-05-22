@@ -45,6 +45,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="IncrementWindowHeight" />
+  <action id="IntroduceParameter" />
   <action id="MethodDown" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
@@ -88,6 +89,9 @@
   </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="ToggleBookmark7" />
+  <action id="Tool_External Tools_Black">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="Tool_External Tools_YAPF">
     <keyboard-shortcut first-keystroke="ctrl alt #10000d6" />
   </action>
