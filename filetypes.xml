@@ -3,12 +3,13 @@
     <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping ext="sublime-keymap" type="JSON" />
-      <mapping ext="sublime-commands" type="JSON" />
       <mapping ext="sublime-menu" type="JSON" />
       <mapping ext="sublime-settings" type="JSON" />
+      <mapping ext="sublime-commands" type="JSON" />
+      <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
       <mapping pattern="a" type="PLAIN_TEXT" />
-      <mapping ext="dedup" type="PLAIN_TEXT" />
       <mapping ext="redup" type="PLAIN_TEXT" />
+      <mapping ext="dedup" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
