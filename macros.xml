@@ -1,0 +1,10 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Optimize everything">
+      <action id="AutoIndentLines" />
+      <shortuct text="control alt K" />
+      <action id="OptimizeImports" />
+      <action id="Tool_External Tools_pylint" />
+    </macro>
+  </component>
+</application>

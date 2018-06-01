@@ -13,10 +13,6 @@
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
-  <action id="AutoIndentLines">
-    <keyboard-shortcut first-keystroke="ctrl alt i" />
-    <keyboard-shortcut first-keystroke="ctrl alt l" />
-  </action>
   <action id="ChangesView.UnshelveSilently" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
@@ -55,6 +51,9 @@
   </action>
   <action id="IncrementWindowHeight" />
   <action id="IntroduceParameter" />
+  <action id="Macro.Optimize everything">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
   <action id="MethodDown" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
@@ -64,18 +63,14 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
-  <action id="OptimizeImports">
-    <keyboard-shortcut first-keystroke="ctrl alt o" />
-    <keyboard-shortcut first-keystroke="ctrl alt l" />
-  </action>
   <action id="PopupHector" />
   <action id="RearrangeCode">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
-    <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
+  <action id="ReformatCode" />
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
@@ -128,6 +123,7 @@
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="Vcs.Log.ShowDiff" />
+  <action id="Vcs.ReformatCommitMessage" />
   <action id="View event PSI element" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="editRunConfigurations">
