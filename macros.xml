@@ -2,18 +2,17 @@
   <component name="ActionMacroManager">
     <macro name="Optimize everything">
       <action id="AutoIndentLines" />
-      <shortuct text="control alt K" />
-      <action id="OptimizeImports" />
-      <action id="Tool_External Tools_pylint" />
-    </macro>
-    <macro name="Optimize everything2">
-      <action id="AutoIndentLines" />
+      <action id="ReformatCode" />
       <action id="Rearrange Code" />
       <action id="OptimizeImports" />
       <action id="Tool_External Tools_pylint" />
     </macro>
-    <macro name="asd">
+    <macro name="asdasd">
+      <action id="OptimizeImports" />
+      <action id="AutoIndentLines" />
       <action id="ReformatCode" />
+      <shortuct text="control alt K" />
+      <action id="AutoIndentLines" />
     </macro>
   </component>
 </application>
