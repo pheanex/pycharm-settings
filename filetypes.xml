@@ -8,6 +8,7 @@
       <mapping ext="sublime-settings" type="JSON" />
       <mapping ext="sublime-commands" type="JSON" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
+      <mapping pattern="known_hosts" type="PLAIN_TEXT" />
       <mapping pattern="a" type="PLAIN_TEXT" />
       <mapping ext="redup" type="PLAIN_TEXT" />
       <mapping ext="dedup" type="PLAIN_TEXT" />
