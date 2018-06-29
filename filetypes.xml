@@ -7,6 +7,7 @@
       <mapping ext="sublime-menu" type="JSON" />
       <mapping ext="sublime-settings" type="JSON" />
       <mapping ext="sublime-commands" type="JSON" />
+      <mapping pattern=".env-dev" type="PLAIN_TEXT" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
       <mapping pattern="known_hosts" type="PLAIN_TEXT" />
       <mapping pattern=".flake8" type="PLAIN_TEXT" />
