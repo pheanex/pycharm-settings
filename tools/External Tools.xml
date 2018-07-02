@@ -13,10 +13,10 @@
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
-  <tool name="pylint" description="python linter" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="pylint_dir" description="python linter" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="pylint" />
-      <option name="PARAMETERS" value="$(find . -type f -iname '*.py'" />
+      <option name="COMMAND" value="pylint_dir" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
@@ -53,6 +53,20 @@
       <option name="COMMAND" value="$USER_HOME$/.local/bin/pytype" />
       <option name="PARAMETERS" value="$FilePath$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="pyupgrade" description="upgrades old language features to newer ones" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/.local/bin/pyupgrade" />
+      <option name="PARAMETERS" value="--py36-plus $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="pylint" description="python linter" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="pylint" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
 </toolSet>

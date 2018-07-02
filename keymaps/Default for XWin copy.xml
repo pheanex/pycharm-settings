@@ -13,6 +13,10 @@
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="AutoIndentLines">
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
+    <keyboard-shortcut first-keystroke="ctrl alt numpad1" />
+  </action>
   <action id="ChangesView.UnshelveSilently" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
@@ -60,9 +64,14 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="ctrl alt numpad2" />
+  </action>
   <action id="PopupHector" />
   <action id="RearrangeCode">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
+    <keyboard-shortcut first-keystroke="ctrl alt numpad3" />
   </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="ctrl o" />
@@ -70,6 +79,7 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt #10000fc" />
     <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl alt numpad4" />
   </action>
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
@@ -98,20 +108,32 @@
   </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="ToggleBookmark7" />
+  <action id="Tool_External Tools_Black">
+    <keyboard-shortcut first-keystroke="ctrl alt numpad9" />
+  </action>
   <action id="Tool_External Tools_YAPF">
     <keyboard-shortcut first-keystroke="ctrl alt #10000d6" />
   </action>
   <action id="Tool_External Tools_YAPF3">
     <keyboard-shortcut first-keystroke="ctrl alt #10000d6" />
+    <keyboard-shortcut first-keystroke="ctrl alt numpad8" />
   </action>
   <action id="Tool_External Tools_flake8">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
+    <keyboard-shortcut first-keystroke="ctrl alt numpad6" />
   </action>
   <action id="Tool_External Tools_pylint">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
+    <keyboard-shortcut first-keystroke="ctrl alt numpad5" />
   </action>
   <action id="Tool_External Tools_pylint3">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
+  </action>
+  <action id="Tool_External Tools_pylint_dir">
+    <keyboard-shortcut first-keystroke="shift ctrl alt numpad5" />
+  </action>
+  <action id="Tool_External Tools_pyupgrade">
+    <keyboard-shortcut first-keystroke="ctrl alt numpad7" />
   </action>
   <action id="Tool_External Tools_yamllint">
     <keyboard-shortcut first-keystroke="ctrl alt #10000c4" />
