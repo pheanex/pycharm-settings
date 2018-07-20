@@ -1,18 +1,18 @@
 <application>
   <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.pytest_cache;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern="nakadi_subscription_response" type="JSON" />
       <mapping pattern="advisor_input" type="JSON" />
+      <mapping pattern="nakadi_subscription_response" type="JSON" />
       <mapping ext="sublime-keymap" type="JSON" />
-      <mapping ext="sublime-menu" type="JSON" />
-      <mapping ext="sublime-settings" type="JSON" />
       <mapping ext="sublime-commands" type="JSON" />
+      <mapping ext="sublime-settings" type="JSON" />
+      <mapping ext="sublime-menu" type="JSON" />
       <mapping pattern=".env-dev" type="PLAIN_TEXT" />
-      <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
-      <mapping pattern="known_hosts" type="PLAIN_TEXT" />
-      <mapping pattern=".flake8" type="PLAIN_TEXT" />
       <mapping pattern="a" type="PLAIN_TEXT" />
+      <mapping pattern="known_hosts" type="PLAIN_TEXT" />
+      <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
+      <mapping pattern=".flake8" type="PLAIN_TEXT" />
       <mapping ext="redup" type="PLAIN_TEXT" />
       <mapping ext="dedup" type="PLAIN_TEXT" />
     </extensionMap>
