@@ -1,15 +1,16 @@
 <scheme name="Blackboard" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0833334" />
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2017-04-23T15:45:37</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.1.0.0</property>
-    <property name="modified">2017-07-09T15:16:10</property>
+    <property name="modified">2018-07-23T12:28:15</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.0" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
+    <option name="EDITOR_FONT_NAME" value="Bitstream Vera Sans Mono" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Liberation Mono" />
@@ -23,6 +24,7 @@
     <option name="ADDED_LINES_COLOR" value="379426" />
     <option name="CONSOLE_BACKGROUND_KEY" value="c1021" />
     <option name="DELETED_LINES_COLOR" value="fc5b00" />
+    <option name="DOCUMENTATION_COLOR" value="3c3f41" />
     <option name="GUTTER_BACKGROUND" value="c1021" />
     <option name="MODIFIED_LINES_COLOR" value="8da5c9" />
     <option name="NOTIFICATION_BACKGROUND" value="32424a" />
@@ -85,7 +87,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT" />
     <option name="BASH.VAR_DEF">
       <value>
         <option name="FOREGROUND" value="f8f8f8" />
@@ -9425,15 +9426,12 @@
       </value>
     </option>
     <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="PY.DECORATOR" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
-    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
