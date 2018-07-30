@@ -8,6 +8,7 @@
       <mapping ext="sublime-menu" type="JSON" />
       <mapping ext="sublime-settings" type="JSON" />
       <mapping ext="sublime-commands" type="JSON" />
+      <mapping pattern="Readme" type="PLAIN_TEXT" />
       <mapping pattern=".pylintrc" type="PLAIN_TEXT" />
       <mapping pattern=".env-dev" type="PLAIN_TEXT" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
