@@ -155,5 +155,6 @@
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
+  <action id="jp.co.future.ideausqlfmt.UroborosqlFormatterAction" />
   <action id="openAssertEqualsDiff" />
 </keymap>
